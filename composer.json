@@ -1,0 +1,20 @@
+{
+    "name": "administrador/composer-painel2",
+    "description": "Composer para o painel de indicadores",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Administrador\\ComposerPainel2\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Paulo G S Lopes"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.28",
+        "tecnickcom/tcpdf": "^6.6",
+        "setasign/fpdf": "^1.8"
+    }
+}
